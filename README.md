@@ -35,8 +35,8 @@ En la sección **[Releases](../../releases)** hay dos paquetes que funcionan **s
 
 | Sistema | Archivo | Cómo ejecutarlo |
 |---|---|---|
-| Linux | `Red Skull Lite-1.0.0.AppImage` | `chmod +x` y doble clic. Si no abre: `./"Red Skull Lite-1.0.0.AppImage" --appimage-extract-and-run --no-sandbox` (puede requerir `libfuse2`). |
-| Windows | `Red Skull Lite-1.0.0-win.zip` | Descomprimir y abrir `Red Skull Lite.exe`. No está firmado: SmartScreen puede avisar. |
+| Linux | `Red Skull Lite-3.0.0.AppImage` | `chmod +x` y doble clic. Si no abre: `./"Red Skull Lite-1.0.0.AppImage" --appimage-extract-and-run --no-sandbox` (puede requerir `libfuse2`). |
+| Windows | `Red Skull Lite-3.0.0-win.zip` | Descomprimir y abrir `Red Skull Lite.exe`. No está firmado: SmartScreen puede avisar. |
 
 ## Limitaciones
 
