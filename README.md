@@ -3,7 +3,7 @@ Prototipo jugable de un sandbox de piratería en el Caribe, generado al 100 % po
 
 # Red Skull Lite
 
-Prototipo jugable de un sandbox de piratería en el Caribe del siglo XVII, que corre como ejecutable de escritorio sin conexión.
+Prototipo jugable de un sandbox de piratería en el Caribe del siglo XVIII, que corre como ejecutable de escritorio sin conexión.
 
 > **Este juego ha sido generado al 100 % por una IA (Claude, de Anthropic).** Es un experimento, no un producto final.
 
@@ -21,12 +21,17 @@ El código, la geografía, el equilibrio y las mecánicas de este repositorio lo
 
 ## Qué incluye el prototipo
 
-- Mapa del Caribe a partir de geografía real, con zonas de dificultad y clima regional aleatorio.
+- Mapa del Caribe a partir de geografía real, con zonas de dificultad y clima regional aleatorio, y zoom hasta el plano de las ciudades.
 - Navegación a vela, combate naval, comercio entre puertos y facciones (España, Inglaterra, piratas).
 - Fama, infamia y reputación que cambian cómo reaccionan puertos y guardias.
-- Creación de personaje, desembarco y exploración a pie de pueblos con habitantes que hacen sus tareas.
-- Combate cuerpo a cuerpo clásico (ataque ligero y pesado, bloqueo, parada, stamina, niveles).
+- Creación de personaje, desembarco y exploración a pie de pueblos con habitantes que hacen sus tareas, con hombres y mujeres diferenciados.
+- Personajes con esqueleto y animación procedural: combos de espada, esquiva (Z), guardia y bloqueo, ropa con física y armas en la mano.
+- Combate cuerpo a cuerpo (ataque ligero y pesado, bloqueo, parada, stamina, niveles).
+- Edificios con interior (taberna, iglesia, herrería, astillero, ayuntamiento, lonja) y habitantes con los que hablar.
 - Conquista de pueblos con tripulación, guarniciones, banderas, ingresos, fortificaciones y contraataques.
+- **Base propia** que crece con tu oro (almacén, taberna, herrería, iglesia y **sastrería**), con sus habitantes, con los que se puede hablar.
+- **Sastrería y armario**: libro de muestras con atuendos, sombreros, peinados, barbas y tintes para personalizar al capitán, y un armario en la base para cambiar entre la ropa que ya posees.
+- Puertos con muelles detallados (tablones, barandas, bolardos, cajas, barriles, farolas y grúa).
 - Guardado automático.
 
 ## Descargas
@@ -35,8 +40,10 @@ En la sección **[Releases](../../releases)** hay dos paquetes que funcionan **s
 
 | Sistema | Archivo | Cómo ejecutarlo |
 |---|---|---|
-| Linux | `Red Skull Lite-3.0.0.AppImage` | `chmod +x` y doble clic. Si no abre: `./"Red Skull Lite-1.0.0.AppImage" --appimage-extract-and-run --no-sandbox` (puede requerir `libfuse2`). |
-| Windows | `Red Skull Lite-3.0.0-win.zip` | Descomprimir y abrir `Red Skull Lite.exe`. No está firmado: SmartScreen puede avisar. |
+| Linux | `Red Skull Lite-4.0.0.AppImage` | `chmod +x` y doble clic. Si no abre: `./"Red Skull Lite-4.0.0.AppImage" --appimage-extract-and-run --no-sandbox` (puede requerir `libfuse2`). |
+| Windows | `Red Skull Lite-4.0.0-win.zip` | Descomprimir y abrir `Red Skull Lite.exe`. No está firmado: SmartScreen puede avisar. |
+
+Pulsa **F11** para pantalla completa.
 
 ## Limitaciones
 
@@ -51,4 +58,4 @@ Es un prototipo: sin audio elaborado, gráficos simples, equilibrio sin pulir y 
 
 ## English summary
 
-**Red Skull Lite** is a browser/desktop prototype of a Caribbean piracy sandbox, **built 100% by an AI (Claude)** as an experiment: testing what an AI can do from a personal game idea, and using it as a quick mock-up and source of inspiration for my real project, *Red Skull* (Unity, in development). This repository is not that game. Offline builds for Linux and Windows are available in Releases.
+**Red Skull Lite** is a browser/desktop prototype of a Caribbean piracy sandbox, **built 100% by an AI (Claude)** as an experiment: testing what an AI can do from a personal game idea, and using it as a quick mock-up and source of inspiration for my real project, *Red Skull* (Unity, in development). This repository is not that game. Offline builds for Linux and Windows (v4.0.0) are available in Releases.
